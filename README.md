@@ -427,10 +427,10 @@ After=network.target
 [Service]
 Type=simple
 User=ubuntu
-WorkingDirectory=/home/ubuntu/tempo-core/agent
+WorkingDirectory=/home/ubuntu/Openclaw-AI-Assistant-Project/agent
 ExecStart=/usr/local/bin/openclaw gateway
 Restart=always
-EnvironmentFile=/home/ubuntu/tempo-core/.env
+EnvironmentFile=/home/ubuntu/Openclaw-AI-Assistant-Project/.env
 
 [Install]
 WantedBy=multi-user.target
