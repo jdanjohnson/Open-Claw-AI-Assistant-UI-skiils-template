@@ -23,7 +23,7 @@ Format follows [Keep a Changelog](https://keepachangelog.com/) and is inspired b
 - Plugin/Naming: rename package from `tempo-core-plugin` to `openclaw-core-plugin`.
 - Dashboard/Naming: rename package from `tempo-core-dashboard` to `openclaw-agent-dashboard`.
 - Dashboard/Branding: update header from "Tempo Core" to "OpenClaw Agent" in `App.tsx` and browser tab `<title>` in `index.html`.
-- Docs/README: document QMD memory, hooks, model fallbacks, gateway auth, trusted proxies, compaction memory flush, and plugin manifests. Fix broken repo URLs (`jdanjohnson/tempo-core` -> `mad-dog-it/Openclaw-AI-Assistant-Project`). Fix systemd service paths.
+- Docs/README: document QMD memory, hooks, model fallbacks, gateway auth, trusted proxies, compaction memory flush, and plugin manifests. Fix broken repo URLs (`jdanjohnson/tempo-core` -> `jdanjohnson/Openclaw-AI-Assistant-Project`). Fix systemd service paths.
 - Docs/Heartbeat: update `HEARTBEAT.md` with v2026.2.19 heartbeat guard behavior and `HEARTBEAT_OK` suppression (skips Telegram delivery when all checks pass).
 - Docs/Env: add `.env.example` template with all required and optional environment variables.
 
@@ -31,7 +31,7 @@ Format follows [Keep a Changelog](https://keepachangelog.com/) and is inspired b
 
 - Dashboard/Title: fix browser tab still showing "Tempo Core" instead of "OpenClaw Agent" (`dashboard/index.html` `<title>` tag was missed in initial branding update).
 - Docs/Paths: fix systemd service example still referencing `/home/ubuntu/tempo-core/` paths — updated to `/home/ubuntu/Openclaw-AI-Assistant-Project/`.
-- Docs/URLs: fix all README links pointing to `jdanjohnson/tempo-core` (old repo name) — updated to `mad-dog-it/Openclaw-AI-Assistant-Project`.
+- Docs/URLs: fix all README links pointing to `jdanjohnson/tempo-core` (old repo name) — updated to `jdanjohnson/Openclaw-AI-Assistant-Project`.
 
 ### Breaking
 
